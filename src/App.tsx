@@ -6,7 +6,13 @@ export default function App() {
     <>
       <header className="header">
         <a className="wordmark" href="/" aria-label="Functional Robotics, home">
-          <img src="/logo.png" alt="functional." width="730" height="134" />
+          {/* Lucide "aperture", same as the product app's BrandMark. */}
+          <svg className="wordmark__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <path d="m14.31 8 5.74 9.94" /><path d="M9.69 8h11.48" /><path d="m7.38 12 5.74-9.94" />
+            <path d="M9.69 16 3.95 6.06" /><path d="M14.31 16H2.83" /><path d="m16.62 12-5.74 9.94" />
+          </svg>
+          functional<span className="wordmark__dot">.</span>
         </a>
         <a className="cta t-label" href={mail}>Talk to us</a>
       </header>
