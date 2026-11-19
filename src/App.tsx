@@ -5,14 +5,15 @@ export default function App() {
   return (
     <>
       <header className="header">
-        <a className="wordmark" href="/" aria-label="Functional Robotics, home">Functional Robotics</a>
+        <a className="wordmark" href="/" aria-label="Functional Robotics, home">
+          <img src="/logo.png" alt="functional." width="730" height="134" />
+        </a>
         <a className="cta t-label" href={mail}>Talk to us</a>
       </header>
 
       <main>
         <section className="hero container" aria-labelledby="hero-title">
           <div className="hero__inner">
-            <p className="hero__eyebrow t-label">Functional Robotics</p>
             <h1 className="t-display" id="hero-title">Simplify deployments.</h1>
             <p className="hero__lede t-lede">
               One pipeline from simulation to the floor: teleoperate, train, evaluate and ship policies
