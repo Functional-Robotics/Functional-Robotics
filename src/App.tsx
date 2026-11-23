@@ -36,12 +36,12 @@ export default function App() {
           <ul className="backers__logos">
             <li>
               <a href="https://uwaterloo.ca" target="_blank" rel="noreferrer">
-                <img src="/logos/uwaterloo.svg" alt="University of Waterloo" height="36" />
+                <img src="/logos/uwaterloo.svg" alt="University of Waterloo" height="28" />
               </a>
             </li>
             <li>
               <a className="backers__robohub" href="https://uwaterloo.ca/robohub/" target="_blank" rel="noreferrer">
-                <img src="/logos/robohub.png" alt="" height="36" />
+                <img src="/logos/robohub.png" alt="" height="28" />
                 RoboHub
               </a>
             </li>
