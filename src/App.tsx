@@ -31,6 +31,23 @@ export default function App() {
           </div>
         </section>
 
+        <section className="backers container" aria-labelledby="backers-title">
+          <h2 className="t-label backers__title" id="backers-title">Backed by</h2>
+          <ul className="backers__logos">
+            <li>
+              <a href="https://uwaterloo.ca" target="_blank" rel="noreferrer">
+                <img src="/logos/uwaterloo.svg" alt="University of Waterloo" height="36" />
+              </a>
+            </li>
+            <li>
+              <a className="backers__robohub" href="https://uwaterloo.ca/robohub/" target="_blank" rel="noreferrer">
+                <img src="/logos/robohub.png" alt="" height="36" />
+                RoboHub
+              </a>
+            </li>
+          </ul>
+        </section>
+
         <section className="manifesto container" aria-label="What we believe">
           <ul>
             <li className="t-statement">Everyone trains a policy. Few get it onto a robot.</li>
